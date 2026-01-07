@@ -1,22 +1,23 @@
-# Three-Tier Architecture on AWS
+# Three-Tier Shopping Application Architecture on AWS
 
 ## Overview
-This repository demonstrates a standard three-tier architecture consisting of a presentation layer, application layer, and database layer. The project is designed to showcase cloud architecture understanding and infrastructure separation following best practices.
+This repository demonstrates a three-tier architecture using a simple shopping application. 
+The focus is on architectural separation between the Web, Application, and Database layers.
 
 ## Architecture Layers
-- Web Tier: Handles client requests and serves frontend content
-- Application Tier: Processes business logic
-- Database Tier: Stores and manages application data
+- Web Tier: HTML frontend
+- Application Tier: Python backend handling business logic
+- Database Tier: Python-based data layer
 
-## AWS Services (Conceptual)
+## Conceptual AWS Mapping
 - Web Tier: EC2 / Load Balancer
-- App Tier: EC2 / Auto Scaling
-- DB Tier: RDS
+- Application Tier: EC2 / Auto Scaling
+- Database Tier: Amazon RDS
 
 ## Repository Structure
 web/        # Presentation layer (frontend)
-app/        # Application layer (backend)
-db/         # Database layer (schema / config)
+app/        # Application layer (Python backend)
+db/         # Database layer (simulated)
 diagrams/   # Architecture diagrams
 
 ## Notes

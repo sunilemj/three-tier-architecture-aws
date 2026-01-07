@@ -1,4 +1,0 @@
-Application Tier
-
-This layer handles business logic and communicates
-between the web tier and the database tier.

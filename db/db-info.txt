@@ -1,4 +1,0 @@
-Database Tier
-
-This layer represents the data storage layer,
-typically implemented using AWS RDS.
